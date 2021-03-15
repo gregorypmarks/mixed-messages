@@ -15,5 +15,4 @@ const randomQuote = (array) => Math.floor(Math.random() * array.length);
 const selectedQuote = quotes[randomQuote(quotes)];
 
 // Dispalys the Quote
-console.log('Your quote for the day:')
-console.log(selectedQuote);
+console.log(`Your quote for the day: ${selectedQuote}`);
